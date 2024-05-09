@@ -4795,6 +4795,7 @@ self.C3_JsPropNameTable = [
 	{FadeMenu: 0},
 	{FadeGame: 0},
 	{ErrorText: 0},
+	{version: 0},
 	{Dots: 0},
 	{Pause: 0},
 	{Sound: 0},
@@ -4851,6 +4852,7 @@ self.InstanceType = {
 	FadeMenu: class extends self.ISpriteInstance {},
 	FadeGame: class extends self.ITiledBackgroundInstance {},
 	ErrorText: class extends self.ITextInstance {},
+	version: class extends self.ITextInstance {},
 	Dots: class extends self.ISpriteInstance {}
 }
 }
